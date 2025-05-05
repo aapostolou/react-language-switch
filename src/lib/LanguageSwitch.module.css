@@ -1,0 +1,19 @@
+.container {
+  position: relative;
+}
+
+.activeLanguage > img {
+  position: relative;
+  z-index: 1000;
+}
+
+.otherLanguages > img {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  transition: transform 0.3s ease;
+}
