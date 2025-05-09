@@ -1,9 +1,9 @@
-import { useEffect, useMemo, useState } from 'react';
-import { Flag, FlagCode, FlagProps } from 'react-flagpedia';
+import { useEffect, useMemo, useState } from "react";
+import { Flag, FlagCode, FlagProps } from "react-flagpedia";
 
-import styles from './LanguageSwitch.module.css';
-import { LanguageSwitchDirection } from './types';
-import { createDirectionalMovement } from './utils';
+import { LanguageSwitchDirection } from "./constants/types";
+import styles from "./LanguageSwitch.module.css";
+import { createDirectionalMovement } from "./utils";
 
 export type LanguageSwitchProps = {
     languages: FlagCode[];
