@@ -1,7 +1,7 @@
 {
   "name": "react-language-switch-flags",
   "private": false,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "files": [
     "dist"
@@ -115,6 +115,7 @@
     "typescript": "5.8.2",
     "typescript-eslint": "8.26.0",
     "vite": "6.2.7",
+    "vite-plugin-css-injected-by-js": "^3.5.2",
     "vite-plugin-dts": "4.5.3"
   },
   "pnpm": {
